@@ -60,14 +60,12 @@
     <packaging>bundle</packaging>
     <description>This is the custom module (jahia-dashboard-docs) for running on a Jahia server.</description>
 
-    <!--
     <scm>
         <connection>scm:git:https://github.com/Jahia/jahia-dashboard-docs</connection>
         <developerConnection>scm:git:git@github.com:Jahia/jahia-dashboard-docs.git</developerConnection>
         <url>https://github.com/Jahia/jahia-dashboard-docs</url>
         <tag>HEAD</tag>
     </scm>
-    -->
 
     <repositories>
         <repository>
