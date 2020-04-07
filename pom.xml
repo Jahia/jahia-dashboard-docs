@@ -67,6 +67,13 @@
         <tag>HEAD</tag>
     </scm>
 
+    <properties>
+        <jahia-depends>default,jahia-dashboard</jahia-depends>
+        <jahia-deploy-on-site>all</jahia-deploy-on-site>
+        <jahia-module-type>system</jahia-module-type>
+        <yarn.arguments>build:production</yarn.arguments>
+    </properties>
+
     <repositories>
         <repository>
             <id>jahia-public</id>
@@ -82,18 +89,4 @@
         </repository>
     </repositories>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-                <extensions>true</extensions>
-                <configuration>
-                    <instructions>
-                        <Jahia-Depends>default</Jahia-Depends>
-                    </instructions>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>

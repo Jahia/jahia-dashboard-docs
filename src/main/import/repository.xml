@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
    <modules jcr:primaryType="jnt:modules">
-      <jahia-dashboard-docs j:dependencies="default"
+      <jahia-dashboard-docs j:dependencies="default jahia-dashboard"
                             j:modulePriority="0"
                             j:moduleType="module"
                             j:title="Jahia Dashboard Documentation cards"
@@ -14,6 +14,7 @@
             <contents jcr:primaryType="jnt:contentFolder">
                <dashboard jcr:primaryType="jnt:contentFolder">
                   <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="dashboard"/>
                   <adding-a-new-page academyUrl="http://academy.jahia.com"
@@ -32,11 +33,17 @@
                   <adding-personalization academyUrl="http://academy.jahia.com"
                                           estimatedReadingTime="20"
                                           featured="false"
+                                          j:invertCondition="false"
+                                          j:requireLoggedUser="false"
+                                          j:requirePrivilegedUser="false"
+                                          j:requiredPermissionNames="canAccessJExperience"
                                           j:tagList="jcontent jexperience"
+                                          jcr:mixinTypes="jmix:requiredPermissions"
                                           jcr:primaryType="jnt:dashboardDoc"
                                           lastEditDate="2020-04-01T17:10:00.000+02:00"
+                                          operatingModes=""
                                           requiredModules="jexperience"
-                                          requiredPermissions="jexperience"
+                                          requiredPermissions=""
                                           trainingUrl="/sites/training/home.html">
                      <j:translation_en description="Learn to create personalized content and pages in the Page Composer using jExperience"
                                        jcr:language="en"
@@ -60,10 +67,17 @@
                   <module-management academyUrl="http://academy.jahia.com"
                                      estimatedReadingTime="15"
                                      featured="false"
+                                     j:invertCondition="false"
+                                     j:requireLoggedUser="false"
+                                     j:requirePrivilegedUser="false"
+                                     j:requiredPermissionNames="studioModeAccess"
+                                     j:tagList=""
+                                     jcr:mixinTypes="jmix:requiredPermissions"
                                      jcr:primaryType="jnt:dashboardDoc"
                                      lastEditDate="2020-04-06T14:36:00.000+02:00"
                                      operatingModes="production"
-                                     requiredPermissions="studioAccess"
+                                     requiredModules=""
+                                     requiredPermissions=""
                                      trainingUrl="/sites/training/test">
                      <j:translation_en description="Get started with modules: create a new module, deploy it  and activate it on your site"
                                        jcr:language="en"
