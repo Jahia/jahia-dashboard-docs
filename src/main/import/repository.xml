@@ -43,7 +43,6 @@
                                           lastEditDate="2020-04-01T17:10:00.000+02:00"
                                           operatingModes=""
                                           requiredModules="jexperience"
-                                          requiredPermissions=""
                                           trainingUrl="/sites/training/home.html">
                      <j:translation_en description="Learn to create personalized content and pages in the Page Composer using jExperience"
                                        jcr:language="en"
@@ -77,7 +76,6 @@
                                      lastEditDate="2020-04-06T14:36:00.000+02:00"
                                      operatingModes="production"
                                      requiredModules=""
-                                     requiredPermissions=""
                                      trainingUrl="/sites/training/test">
                      <j:translation_en description="Get started with modules: create a new module, deploy it  and activate it on your site"
                                        jcr:language="en"
