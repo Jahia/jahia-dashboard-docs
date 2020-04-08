@@ -12,11 +12,11 @@
          <templates j:rootTemplatePath="/base" jcr:primaryType="jnt:templatesFolder">
             <files jcr:primaryType="jnt:folder"/>
             <contents jcr:primaryType="jnt:contentFolder">
-               <dashboard jcr:primaryType="jnt:contentFolder">
+               <jahia-dashboard jcr:primaryType="jnt:contentFolder">
                   <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
-                                    jcr:title="dashboard"/>
+                                    jcr:title="jahia-dashboard"/>
                   <adding-a-new-page academyUrl="http://academy.jahia.com"
                                      estimatedReadingTime="10"
                                      featured="false"
@@ -83,7 +83,7 @@
                                        jcr:primaryType="jnt:translation"
                                        jcr:title="Module management"/>
                   </module-management>
-               </dashboard>
+               </jahia-dashboard>
             </contents>
          </templates>
       </jahia-dashboard-docs>
