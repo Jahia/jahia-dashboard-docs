@@ -36,7 +36,7 @@
                                           j:invertCondition="false"
                                           j:requireLoggedUser="false"
                                           j:requirePrivilegedUser="false"
-                                          j:requiredPermissionNames="canAccessJExperience"
+                                          j:requiredPermissionNames="canAccessGlobalJExperience"
                                           j:tagList="jcontent jexperience"
                                           jcr:mixinTypes="jmix:requiredPermissions"
                                           jcr:primaryType="jnt:dashboardDoc"
