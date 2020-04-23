@@ -7,7 +7,7 @@
 
                                     http://www.jahia.com
 
-        Copyright (C) 2002-2019 Jahia Solutions Group SA. All rights reserved.
+        Copyright (C) 2002-2020 Jahia Solutions Group SA. All rights reserved.
 
         THIS FILE IS AVAILABLE UNDER TWO DIFFERENT LICENSES:
         1/GPL OR 2/JSEL
@@ -52,7 +52,7 @@
     <parent>
         <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>
-        <version>7.3.3.0</version>
+        <version>8.0.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>jahia-dashboard-docs</artifactId>
     <name>Jahia Dashboard Documentation cards</name>
@@ -72,6 +72,7 @@
         <jahia-deploy-on-site>all</jahia-deploy-on-site>
         <jahia-module-type>system</jahia-module-type>
         <yarn.arguments>build:production</yarn.arguments>
+        <jahia-module-signature>MC0CFADVzgKyZx+cNYDv/ZNGEFyAhls/AhUAhRbBJzua/1N4KLdMb7M2vxy143g=</jahia-module-signature>
     </properties>
 
     <repositories>
