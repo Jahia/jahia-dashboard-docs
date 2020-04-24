@@ -17,7 +17,7 @@
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="jahia-dashboard"/>
-                  <adding-a-new-page academyUrl="http://academy.jahia.com"
+                  <adding-a-new-page academyUrl="https://academy.jahia.com/tutorials/8.0/adding-a-page"
                                      docTags="jcontent"
                                      estimatedReadingTime="10"
                                      featured="false"
@@ -45,7 +45,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Adding a new page"/>
                   </adding-a-new-page>
-                  <adding-personalization academyUrl="http://academy.jahia.com"
+                  <adding-personalization academyUrl="https://academy.jahia.com/tutorials/8.0/adding-personalization"
                                           docTags="jcontent jexperience"
                                           estimatedReadingTime="20"
                                           featured="false"
@@ -78,7 +78,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Adding Personalization"/>
                   </adding-personalization>
-                  <advanced-content academyUrl="http://academy.jahia.com"
+                  <advanced-content academyUrl="https://academy.jahia.com/tutorials/8.0/advanced-content"
                                     docTags="jcontent"
                                     estimatedReadingTime="15"
                                     featured="false"
@@ -105,7 +105,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Advanced content"/>
                   </advanced-content>
-                  <module-management academyUrl="http://academy.jahia.com"
+                  <module-management academyUrl="https://academy.jahia.com/tutorials/8.0/module-management"
                                      docTags="developer"
                                      estimatedReadingTime="15"
                                      featured="false"
@@ -139,7 +139,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Module management"/>
                   </module-management>
-                  <content-type-definitions academyUrl="https://academy.jahia.com/cms/render/default/documentation/developer/dx/8/creating-content-types-views-and-templates/creating-a-content-type"
+                  <content-type-definitions academyUrl="https://academy.jahia.com/tutorials/8.0/content-type-definition"
                                             docTags="developer"
                                             estimatedReadingTime="30"
                                             featured="false"
@@ -173,7 +173,8 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Content type definitions"/>
                   </content-type-definitions>
-                  <profile-data docTags="jexperience"
+                  <profile-data academyUrl="https://academy.jahia.com/tutorials/8.0/profile-data"
+                                docTags="jexperience"
                                 featured="false"
                                 j:invertCondition="false"
                                 j:requireLoggedUser="false"
@@ -201,7 +202,8 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Profile Data"/>
                   </profile-data>
-                  <analytics docTags="jexperience"
+                  <analytics academyUrl="https://academy.jahia.com/tutorials/8.0/analytics"
+                             docTags="jexperience"
                              featured="false"
                              j:invertCondition="false"
                              j:requireLoggedUser="false"
@@ -229,7 +231,8 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Analytics"/>
                   </analytics>
-                  <views docTags="developer"
+                  <views academyUrl="https://academy.jahia.com/tutorials/8.0/views"
+                         docTags="developer"
                          featured="false"
                          j:invertCondition="false"
                          j:requireLoggedUser="false"
@@ -257,7 +260,8 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Views"/>
                   </views>
-                  <templating docTags="developer"
+                  <templating academyUrl="https://academy.jahia.com/tutorials/8.0/templating"
+                              docTags="developer"
                               featured="false"
                               j:invertCondition="false"
                               j:requireLoggedUser="false"
@@ -285,7 +289,8 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Templating"/>
                   </templating>
-                  <get-started-with-headless docTags="developer"
+                  <get-started-with-headless academyUrl="https://academy.jahia.com/tutorials/8.0/headless-development"
+                                             docTags="developer"
                                              featured="false"
                                              j:invertCondition="false"
                                              j:requireLoggedUser="false"
@@ -313,7 +318,8 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Get started with headless"/>
                   </get-started-with-headless>
-                  <multilingual--localization docTags="administrator jcontent"
+                  <multilingual--localization academyUrl="https://academy.jahia.com/tutorials/8.0/multilingual-and-localisation"
+                                              docTags="administrator jcontent"
                                               featured="false"
                                               j:invertCondition="false"
                                               j:requireLoggedUser="false"
@@ -341,7 +347,8 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Multilingual &amp; localization"/>
                   </multilingual--localization>
-                  <server-administration docTags="administrator"
+                  <server-administration academyUrl="https://academy.jahia.com/documentation/system-administrator/managing-server-settings"
+                                         docTags="administrator"
                                          featured="false"
                                          j:invertCondition="false"
                                          j:requireLoggedUser="false"
@@ -369,7 +376,8 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Server administration"/>
                   </server-administration>
-                  <roles-and-permissions docTags="administrator"
+                  <roles-and-permissions academyUrl="https://academy.jahia.com/documentation/system-administrator/managing-roles-and-permissions"
+                                         docTags="administrator"
                                          featured="false"
                                          j:invertCondition="false"
                                          j:requireLoggedUser="false"
