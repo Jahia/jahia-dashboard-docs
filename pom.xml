@@ -66,7 +66,6 @@
 
     <properties>
         <jahia-depends>default,jahia-dashboard</jahia-depends>
-        <jahia-deploy-on-site>all</jahia-deploy-on-site>
         <jahia-module-type>system</jahia-module-type>
         <yarn.arguments>build:production</yarn.arguments>
         <jahia-module-signature>MC0CFADVzgKyZx+cNYDv/ZNGEFyAhls/AhUAhRbBJzua/1N4KLdMb7M2vxy143g=</jahia-module-signature>
