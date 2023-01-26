@@ -65,10 +65,10 @@
     </scm>
 
     <properties>
-        <jahia-depends>default,jahia-dashboard</jahia-depends>
+        <jahia-depends>jahia-dashboard</jahia-depends>
         <jahia-module-type>system</jahia-module-type>
         <yarn.arguments>build:production</yarn.arguments>
-        <jahia-module-signature>MCwCFGeTJV/mi5PVmJL08KBxeHB0BX02AhRBIbeXEyiONlA8hYJs3vkAdkTGVQ==</jahia-module-signature>
+        <jahia-module-signature>MCwCFB1pVeyOi1R/WYPwB7YD+AoynUT1AhQrpK1M5b/QCxu8BH4SS+am+EX/nw==</jahia-module-signature>
     </properties>
 
     <repositories>
