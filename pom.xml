@@ -68,7 +68,7 @@
         <jahia-depends>jahia-dashboard</jahia-depends>
         <jahia-module-type>system</jahia-module-type>
         <yarn.arguments>build:production</yarn.arguments>
-        <jahia-module-signature>MCwCFAmZ5leNsqwUG9pjKkDSfjvyejJWAhRxsb+DjQmu3+WRpGOVX3GK3K5H7w==</jahia-module-signature>
+        <jahia-module-signature>MCsCFH9QdJwipQWs86/3Qyxho2FpkBz7AhN5kF+pQdu35W9BMgC6ztF9J4p/</jahia-module-signature>
     </properties>
 
     <repositories>
